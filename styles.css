@@ -195,4 +195,7 @@ body {
     margin-left: 2%;
     margin-right: 2%;
     border-radius: 25px;
+    border-style: solid;
+    border: 5px;
+    border-color:rbg(179, 179,179);
 }
