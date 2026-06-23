@@ -13,10 +13,3 @@ function WardenOfTheCove() {
 function contacts() {
     window.location.href = "contact.html";
 }
-
-<<<<<<< HEAD
-=======
-function scroll() {
-    document.getElementById("main").scrollTop
-}
->>>>>>> a6ef7a6c3e275b907b9c9517b03fa70ec75d654a
