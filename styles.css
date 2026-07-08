@@ -11,6 +11,8 @@ html {
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position:fixed;
+    margin: 0;
+    padding: 0;
 }
 
 /*Actual text sections*/
@@ -30,21 +32,14 @@ body {
     border-width: 3px;
     border-color: rgb(179, 179, 179);
     border-radius: 30px;
-    margin-top: 13%;
+    margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
     transition-property: all;
     transition-duration: 250ms;
     width: 96%;
-    margin-bottom: 100px;
+    margin-bottom: 125px;
     height: 300px;
-}
-
-#headerBlock:hover .header{
-    transition-duration: 250ms;
-    transition-property: all;
-    color: rgb(63, 82, 74);
-    cursor: pointer;
 }
 
 #headerBlock:hover .header{
@@ -52,7 +47,6 @@ body {
     transition-duration: 250ms;
     transition-property: all;
     color: rgb(7, 116, 71);
-    cursor: pointer;
 
 }
 
@@ -148,14 +142,14 @@ body {
     height: 250px;
     border-style:solid;
     border-width: 2px;
-    border-color: rgb(150, 150, 150);
+    border-color: rgb(100, 100, 100);
     transition-duration: 250ms;
     transition-property: all;
     color: rgb(7, 116, 107);
 }
 
 .subdiv:hover .text{
-    font-size: 25px;
+    font-size: 20px;
     transition-duration: 250ms;
     transition-property: all;
 }
@@ -182,20 +176,35 @@ body {
     font-size: 20px;
 }
 
-#tbd {
-    width:96%;
-    margin-top: 20%;
-}
-
 #container {
-    width: 96%;
+    width: 95%;
     height: 500px;
     background-color: rgba(66,66,66,0.6);
     position: relative;
     margin-left: 2%;
     margin-right: 2%;
-    border-radius: 25px;
+    margin-bottom: 125px;
     border-style: solid;
-    border: 5px;
-    border-color:rbg(179, 179,179);
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: rgb(176, 176, 176);
+    transition-property: all;
+    transition-duration: 250ms;
+}
+
+#container:hover {
+    height: 550px;
+    transition-property: all;
+    transition-duration: 250ms;
+}
+
+#container:hover .header {
+   transition-property: all;
+   transition-duration: 250ms;
+   font-size: 60px;
+   color: rgb(7, 116, 71); 
+}
+
+#Contact {
+    height: 40%;
 }
